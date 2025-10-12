@@ -38,7 +38,11 @@
             <style>
               <class name="item-text"></class>
             </style>
-            <property name="wrap">false</property>
+            <property name="ellipsize">end</property>
+            <property name="lines">1</property>
+            <property name="max-width-chars">0</property>
+            <property name="wrap">true</property>
+            <property name="wrap-mode">char</property>
             <property name="vexpand_set">true</property>
             <property name="vexpand">true</property>
             <property name="xalign">0</property>
@@ -49,7 +53,11 @@
             <style>
               <class name="item-subtext"></class>
             </style>
+            <property name="ellipsize">end</property>
+            <property name="lines">1</property>
+            <property name="max-width-chars">0</property>
             <property name="wrap">true</property>
+            <property name="wrap-mode">char</property>
             <property name="vexpand_set">true</property>
             <property name="vexpand">true</property>
             <property name="xalign">0</property>
